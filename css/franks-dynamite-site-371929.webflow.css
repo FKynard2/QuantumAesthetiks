@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #f0f4fb;
+    background-color: #323232 ;
     font-family: Oxygen, sans-serif;
     font-size: 16px;
     line-height: 28px;
@@ -77,7 +77,7 @@ blockquote {
     display: flex;
     width: 100%;
     height: 100%;
-    max-width: 1200px;
+    max-width: 1570px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
@@ -90,11 +90,12 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .logo-text {
     font-family: Montserrat, sans-serif;
-    color: #252b3a;
+    color: white;
     font-size: 20px;
     line-height: 28px;
     font-weight: 600;
@@ -124,9 +125,9 @@ blockquote {
 }
 
 .logo-icon {
-    width: 100px;
-    margin-right: 8px;
-    margin-top: 60px;
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 4px;
 }
 
 .resize {
@@ -169,7 +170,7 @@ blockquote {
 }
 
 .h4.white-footer {
-    color: #fff;
+    color: #01ADB5;
     font-size: 22px;
 }
 
@@ -286,12 +287,17 @@ blockquote {
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Raleway, sans-serif;
-    color: #252b3a;
+    color: white;
     font-size: 36px;
     line-height: 46px;
     font-weight: 700;
 }
-
+.text-effect{
+    font-size: 4em;
+    text-transform: uppercase;
+    color: white;
+    -webkit-text-stroke: 2px #01ADB5 ;
+}
 .h2.bottom-margin {
     margin-bottom: 30px;
 }
@@ -310,12 +316,13 @@ blockquote {
     font-size: 52px;
     line-height: 58px;
     font-weight: 800;
+    color: white;
 }
 
 .text-span,
 .text-span-2 {
-    color: #4f1fff;
-    font-style: italic;
+    color: #01ADB5;
+    
 }
 
 .h1.bottom-margin {
@@ -341,6 +348,10 @@ blockquote {
     line-height: 26px;
 }
 
+.text.about{
+    color: white;
+}
+
 .text.breadcrumb {
     display: inline-block;
 }
@@ -356,6 +367,10 @@ blockquote {
 
 .text.top-margin {
     margin-top: 4px;
+}
+
+.margin-left{
+    margin-left: 10rem;
 }
 
 .styleguide-colors {
@@ -410,7 +425,7 @@ blockquote {
 
 .section.hero {
     overflow: visible;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .section.hero-project {
@@ -494,7 +509,7 @@ blockquote {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1570px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
@@ -524,7 +539,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 500px;
-    background-color: #714aff;
+    background-color: #01ADB5;
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease;
     color: #fff;
@@ -533,7 +548,7 @@ blockquote {
 }
 
 .primary-button:hover {
-    background-color: #4f1fff;
+    background-color: #00868e;
 }
 
 .primary-button.top-margin {
@@ -558,7 +573,7 @@ blockquote {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #714aff;
+    border-color: #01ADB5;
     border-radius: 500px;
     background-color: transparent;
     -webkit-transition: all 200ms ease;
@@ -569,7 +584,7 @@ blockquote {
 }
 
 .secondary-button:hover {
-    background-color: #714aff;
+    background-color: #00868e;
     color: #fff;
 }
 
@@ -592,7 +607,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 500px;
-    background-color: #714aff;
+    background-color: #01ADB5;
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease;
     color: #fff;
@@ -602,7 +617,7 @@ blockquote {
 }
 
 .primary-small-button:hover {
-    background-color: #4f1fff;
+    background-color: #00868e;
 }
 
 .primary-small-button.left-padding {
@@ -627,7 +642,7 @@ blockquote {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #714aff;
+    border-color: #01ADB5;
     border-radius: 500px;
     background-color: transparent;
     -webkit-transition: all 200ms ease;
@@ -639,7 +654,7 @@ blockquote {
 }
 
 .secondary-small-button:hover {
-    background-color: #714aff;
+    background-color: #00868e;
     color: #fff;
 }
 
@@ -652,7 +667,7 @@ blockquote {
 .two-col-grid {
     display: -ms-grid;
     display: grid;
-    width: 85%;
+    width: 100%;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -671,6 +686,7 @@ blockquote {
     grid-template-columns: max-content max-content;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+    
 }
 
 .two-col-grid.about {
@@ -775,12 +791,33 @@ blockquote {
 
 .large-bubble {
     position: absolute;
-    left: -12%;
+    left: -30%;
     top: auto;
     right: auto;
     bottom: -35%;
     z-index: 1;
     height: 220px;
+    filter: hue-rotate(290deg);
+}
+.large-bubble-services {
+    position: absolute;
+    left: 60%;
+    top: -10%;
+    right: auto;
+    bottom: auto;
+    z-index: 1;
+    height: 220px;
+    filter: hue-rotate(290deg);
+}
+.large-bubble-services-two {
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    right: auto;
+    bottom: auto;
+    z-index: 1;
+    height: 220px;
+    filter: hue-rotate(290deg);
 }
 
 .bubble {
@@ -791,6 +828,24 @@ blockquote {
     bottom: 0%;
     z-index: 1;
     height: 86px;
+    filter: hue-rotate(290deg);
+    
+}
+.bubble-services {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    z-index: 1;
+    height: 86px;
+    filter: hue-rotate(290deg);
+}
+.bubble-services-two {
+    position: absolute;
+    left: 30%;
+    top: 90%;
+    z-index: 1;
+    height: 86px;
+    filter: hue-rotate(290deg);
 }
 
 .small-bubble {
@@ -801,11 +856,21 @@ blockquote {
     bottom: auto;
     z-index: 1;
     height: 48px;
+    filter: hue-rotate(290deg);
 }
 
 .hero-image {
     position: relative;
     max-width: 380px;
+}
+.image-container{
+    max-width: 100%;
+    height: auto;
+}
+.hero-image-two{
+    max-width: 90%;
+    width: 900px;
+    height: auto;
 }
 
 .dots {
@@ -920,7 +985,7 @@ blockquote {
     max-width: 1200px;
     padding: 60px 100px;
     border-radius: 20px;
-    background-color: #252b3a;
+    background-color: #CBCBCB;
 }
 
 .project-wrapper {
@@ -1014,7 +1079,7 @@ blockquote {
     align-items: flex-start;
     border-style: solid;
     border-width: 8px;
-    border-color: #fff;
+    border-color: #01ADB5;
     border-radius: 100%;
     -o-object-fit: cover;
     object-fit: cover;
@@ -1382,7 +1447,7 @@ blockquote {
     margin-left: auto;
     padding: 30px;
     border-radius: 20px;
-    background-color: rgba(145, 169, 231, 0.43);
+    background-color:#00868e;
     box-shadow: 0 30px 40px 0 rgba(145, 150, 203, 0.2);
 }
 
@@ -1994,6 +2059,7 @@ blockquote {
         margin-top: 0px;
         font-size: 28px;
         line-height: 36px;
+        
     }
 
     .styleguide-colors {
@@ -2616,18 +2682,110 @@ blockquote {
   background-image: url('../svg/Landing page (1).svg');
   background-size: cover;
   background-repeat: no-repeat;
+    background-position: 16%;
 }
 .background-element-two {
   width: 100%;
-    
   background-image: url('../svg/services page (1).svg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 16%;
+  display: flex;
+  position: relative;
 }
 .background-element-three {
   width: 100%;
-    
   background-image: url('../svg/services page 2 (1).svg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 16%;
+  display: flex;
+  position: relative;
+}
+
+
+.services {
+   width: 60%;
+   height: 400px;
+   margin: auto;
+   border: 3px solid #01ADB5;
+   border-radius: 100px;
+}
+
+.services-container{
+    width: 50%;
+}
+
+.Growth-container .h2{
+    color: #01ADB5;
+}
+.Growth-container-two .h2{
+    color: #323232;
+}
+.services-container .color-change{
+    color: #01ADB5;
+}
+.top-padding{
+    padding-top: 125px;
+}
+
+.bottom-padding{
+    padding-bottom: 125px;
+}
+
+.color-change{
+    background-color: #323232;
+}
+.ul-services{
+    margin-top: 2rem;
+}
+.ul-services li{
+    margin-bottom: 3rem;
+}
+
+.services-page-two{
+   width: 60%;
+   aspect-ratio: 1;
+   margin: auto;
+   border: 3px solid #01ADB5;
+   border-radius: 50%;
+}
+
+.extented-services{
+    width: 40%;
+    height: 350px;
+}
+
+.extented-services-container{
+    align-self: end;
+}
+
+.extented-services-container .h2{
+    color: #01ADB5;
+}
+.ul-services-two{
+    margin-top: 7rem;
+    margin-left: 2rem;
+}
+.ul-services-two li{
+    margin-bottom: 3rem;
+}
+
+.ul-services-three{
+    margin-top: 3rem;
+    margin-left: .625rem;
+}
+.ul-services-three li{
+    margin-bottom: 1rem;
+    
+}
+.social-color{
+    filter: hue-rotate(312deg);
+}
+
+
+.h2.theme-aqua{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #01ADB5;
 }
