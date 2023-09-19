@@ -333,18 +333,18 @@ blockquote {
 
 .link {
     margin-top: 10px;
-    color: #4f1fff;
+    color: white;
     text-decoration: none;
 }
 
 .link:hover {
-    text-decoration: underline;
+    color: aqua;
 }
 
 .text {
     position: relative;
     z-index: 100;
-    color: #5f6a8f;
+    color: aqua;
     line-height: 26px;
 }
 
@@ -1607,7 +1607,7 @@ blockquote {
 }
 
 .nav-link:hover {
-    color: #714aff;
+    color: #01ADB5;
 }
 
 .nav-link.w--current {
@@ -2788,4 +2788,20 @@ blockquote {
     margin-top: 20px;
     margin-bottom: 40px;
     color: #01ADB5;
+}
+
+.background-image{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    object-position: 20%;
+    filter: brightness(0.6);
+}
+
+.project-body .nav-link{
+    color: white;
 }
