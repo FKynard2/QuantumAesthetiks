@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #323232 ;
+    background-color: #323232;
     font-family: Oxygen, sans-serif;
     font-size: 16px;
     line-height: 28px;
@@ -170,7 +170,7 @@ blockquote {
 }
 
 .h4.white-footer {
-    color: #01ADB5;
+    color: #01adb5;
     font-size: 22px;
 }
 
@@ -292,11 +292,11 @@ blockquote {
     line-height: 46px;
     font-weight: 700;
 }
-.text-effect{
+.text-effect {
     font-size: 4em;
     text-transform: uppercase;
     color: white;
-    -webkit-text-stroke: 2px #01ADB5 ;
+    -webkit-text-stroke: 2px #01adb5;
 }
 .h2.bottom-margin {
     margin-bottom: 30px;
@@ -321,8 +321,7 @@ blockquote {
 
 .text-span,
 .text-span-2 {
-    color: #01ADB5;
-    
+    color: #01adb5;
 }
 
 .h1.bottom-margin {
@@ -348,7 +347,7 @@ blockquote {
     line-height: 26px;
 }
 
-.text.about{
+.text.about {
     color: white;
 }
 
@@ -369,7 +368,7 @@ blockquote {
     margin-top: 4px;
 }
 
-.margin-left{
+.margin-left {
     margin-left: 10rem;
 }
 
@@ -426,6 +425,7 @@ blockquote {
 .section.hero {
     overflow: visible;
     padding-top: 100px;
+    margin-bottom: 2rem;
 }
 
 .section.hero-project {
@@ -539,7 +539,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 500px;
-    background-color: #01ADB5;
+    background-color: #01adb5;
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease;
     color: #fff;
@@ -573,7 +573,7 @@ blockquote {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #01ADB5;
+    border-color: #01adb5;
     border-radius: 500px;
     background-color: transparent;
     -webkit-transition: all 200ms ease;
@@ -607,7 +607,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 500px;
-    background-color: #01ADB5;
+    background-color: #01adb5;
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease;
     color: #fff;
@@ -642,7 +642,7 @@ blockquote {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #01ADB5;
+    border-color: #01adb5;
     border-radius: 500px;
     background-color: transparent;
     -webkit-transition: all 200ms ease;
@@ -686,7 +686,6 @@ blockquote {
     grid-template-columns: max-content max-content;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
-    
 }
 
 .two-col-grid.about {
@@ -802,7 +801,7 @@ blockquote {
 .large-bubble-services {
     position: absolute;
     left: 60%;
-    top: -10%;
+    top: 10%;
     right: auto;
     bottom: auto;
     z-index: 1;
@@ -829,7 +828,6 @@ blockquote {
     z-index: 1;
     height: 86px;
     filter: hue-rotate(290deg);
-    
 }
 .bubble-services {
     position: absolute;
@@ -851,7 +849,7 @@ blockquote {
 .small-bubble {
     position: absolute;
     left: auto;
-    top: -19%;
+    top: 5%;
     right: 25%;
     bottom: auto;
     z-index: 1;
@@ -863,11 +861,11 @@ blockquote {
     position: relative;
     max-width: 380px;
 }
-.image-container{
+.image-container {
     max-width: 100%;
     height: auto;
 }
-.hero-image-two{
+.hero-image-two {
     max-width: 90%;
     width: 900px;
     height: auto;
@@ -985,7 +983,7 @@ blockquote {
     max-width: 1200px;
     padding: 60px 100px;
     border-radius: 20px;
-    background-color: #CBCBCB;
+    background-color: #e3e3e3;
 }
 
 .project-wrapper {
@@ -1079,7 +1077,7 @@ blockquote {
     align-items: flex-start;
     border-style: solid;
     border-width: 8px;
-    border-color: #01ADB5;
+    border-color: #01adb5;
     border-radius: 100%;
     -o-object-fit: cover;
     object-fit: cover;
@@ -1447,7 +1445,7 @@ blockquote {
     margin-left: auto;
     padding: 30px;
     border-radius: 20px;
-    background-color:#00868e;
+    background-color: #00868e;
     box-shadow: 0 30px 40px 0 rgba(145, 150, 203, 0.2);
 }
 
@@ -1457,8 +1455,9 @@ blockquote {
 
 .accordion-text.w--open {
     padding-bottom: 20px;
-    background-color: #dae0f1;
+    background-color: #333333;
     border-radius: 5px;
+    padding-left: 5px;
 }
 
 .plus-icon {
@@ -1607,7 +1606,7 @@ blockquote {
 }
 
 .nav-link:hover {
-    color: #01ADB5;
+    color: #01adb5;
 }
 
 .nav-link.w--current {
@@ -2059,7 +2058,6 @@ blockquote {
         margin-top: 0px;
         font-size: 28px;
         line-height: 36px;
-        
     }
 
     .styleguide-colors {
@@ -2675,122 +2673,116 @@ blockquote {
     }
 }
 
-
 .background-element {
-  width: 100%;
-    
-  background-image: url('../svg/Landing page (1).svg');
-  background-size: cover;
-  background-repeat: no-repeat;
+    width: 100%;
+
+    background-image: url("../images/BG\ QA.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: 16%;
+    margin-bottom: 8rem;
 }
 .background-element-two {
-  width: 100%;
-  background-image: url('../svg/services page (1).svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 16%;
-  display: flex;
-  position: relative;
+    width: 100%;
+
+    display: flex;
+    position: relative;
 }
 .background-element-three {
-  width: 100%;
-  background-image: url('../svg/services page 2 (1).svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 16%;
-  display: flex;
-  position: relative;
+    width: 100%;
+    /* background-image: url('../svg/services page 2 (1).svg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 16%;
+    display: flex;
+    position: relative;
 }
-
 
 .services {
-   width: 60%;
-   height: 400px;
-   margin: auto;
-   border: 3px solid #01ADB5;
-   border-radius: 100px;
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    border: 3px solid #01adb5;
+    border-radius: 100px;
 }
 
-.services-container{
+.services-container {
     width: 50%;
 }
 
-.Growth-container .h2{
-    color: #01ADB5;
+.Growth-container .h2 {
+    color: #01adb5;
 }
-.Growth-container-two .h2{
+.Growth-container-two .h2 {
     color: #323232;
 }
-.services-container .color-change{
-    color: #01ADB5;
+.services-container .color-change {
+    color: #01adb5;
 }
-.top-padding{
+.top-padding {
     padding-top: 125px;
 }
 
-.bottom-padding{
+.bottom-padding {
     padding-bottom: 125px;
 }
 
-.color-change{
+.color-change {
     background-color: #323232;
 }
-.ul-services{
+.ul-services {
     margin-top: 2rem;
 }
-.ul-services li{
+.ul-services li {
     margin-bottom: 3rem;
 }
 
-.services-page-two{
-   width: 60%;
-   aspect-ratio: 1;
-   margin: auto;
-   border: 3px solid #01ADB5;
-   border-radius: 50%;
+.services-page-two {
+    width: 60%;
+    aspect-ratio: 1;
+    margin: auto;
+    border: 3px solid #01adb5;
+    border-radius: 50%;
 }
 
-.extented-services{
+.extented-services {
     width: 40%;
     height: 350px;
 }
 
-.extented-services-container{
+.extented-services-container {
     align-self: end;
 }
 
-.extented-services-container .h2{
-    color: #01ADB5;
+.extented-services-container .h2 {
+    color: #01adb5;
 }
-.ul-services-two{
+.ul-services-two {
     margin-top: 7rem;
     margin-left: 2rem;
 }
-.ul-services-two li{
+.ul-services-two li {
     margin-bottom: 3rem;
 }
 
-.ul-services-three{
+.ul-services-three {
     margin-top: 3rem;
-    margin-left: .625rem;
+    margin-left: 0.625rem;
 }
-.ul-services-three li{
+.ul-services-three li {
     margin-bottom: 1rem;
-    
 }
-.social-color{
+.social-color {
     filter: hue-rotate(312deg);
 }
 
-
-.h2.theme-aqua{
+.h2.theme-aqua {
     margin-top: 20px;
     margin-bottom: 40px;
-    color: #01ADB5;
+    color: #01adb5;
 }
 
-.background-image{
+.background-image {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -2802,6 +2794,55 @@ blockquote {
     filter: brightness(0.6);
 }
 
-.project-body .nav-link{
+.project-body .nav-link {
     color: white;
+}
+
+
+.small-container .text.about, .h2{
+    color: #323232;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Add some animation */
+.modal-content {
+    animation: slideIn 0.3s forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
