@@ -13,6 +13,11 @@
     min-height: 75px;
     padding-bottom: 56.25%;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
     background-color: #323232;
@@ -368,9 +373,7 @@ blockquote {
     margin-top: 4px;
 }
 
-.margin-left {
-    margin-left: 10rem;
-}
+
 
 .styleguide-colors {
     display: -ms-grid;
@@ -512,8 +515,8 @@ blockquote {
     max-width: 1570px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 250px;
 }
 
 .container.small-width {
@@ -706,6 +709,7 @@ blockquote {
     display: -ms-flexbox;
     display: flex;
     max-width: 520px;
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -866,8 +870,8 @@ blockquote {
     height: auto;
 }
 .hero-image-two {
-    max-width: 90%;
-    width: 900px;
+    max-width: 900px;
+    width: 100%;
     height: auto;
 }
 
@@ -949,6 +953,10 @@ blockquote {
 
 .main-grid.project {
     grid-row-gap: 20px;
+}
+
+.two-col-grid.margin-left{
+    display: flex;
 }
 
 .center-container {
@@ -1515,7 +1523,7 @@ blockquote {
 .two-col-grid-2 {
     display: -ms-grid;
     display: grid;
-    width: 100%;
+    
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -2816,11 +2824,12 @@ blockquote {
 }
 
 .modal-content {
-    background-color: #fff;
+    background-color: #ffffffa6;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 60%;
+    width: 32%;
+    border-radius: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -2829,6 +2838,9 @@ blockquote {
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+}
+.modal-h2 {
+    text-align: center;
 }
 
 /* Add some animation */
@@ -2845,4 +2857,52 @@ blockquote {
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .container{
+        padding-left: 110px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .container{
+        padding-left: 25px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .hero-image-two{
+        display: none;
+    }
+    .brand{
+        flex-direction: column;
+    }
+    .navbar-container{
+        justify-content: center;
+    }
+    .logo-icon {
+    width: 69px;
+    margin-right: 0px;
+    margin-top: 7px;
+}
+.small-container {
+    width: 100%;
+    max-width: none;
+    margin-top: 125px;
+    text-align: center;
+    align-items: center;
+}
+.primary-button.top-margin {
+    width: 50%;
+}
+.h2{
+    color: white;
+}
+.small-container .text.about, .h2 {
+    color: white;
+}
+
+.small-width .small-container{
+    margin-top: 30px;
+}
 }
