@@ -2824,12 +2824,13 @@ blockquote {
 }
 
 .modal-content {
-    background-color: #ffffffa6;
+    background-color: #ffffffeb;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 32%;
     border-radius: 2rem;
+    min-width: 290px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -2904,5 +2905,15 @@ blockquote {
 
 .small-width .small-container{
     margin-top: 30px;
+}
+.modal-content {
+    background-color: #ffffffeb;
+    margin: 53% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 32%;
+    border-radius: 2rem;
+    min-width: 290px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 }
