@@ -2820,7 +2820,9 @@ blockquote {
 .color-switch-for-about{
     color: white;
 }
-
+.color-switch-for-about-name{
+    color: white;
+}
 
 /* Modal Styles */
 .modal {
