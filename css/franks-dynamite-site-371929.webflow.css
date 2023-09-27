@@ -2809,6 +2809,19 @@ blockquote {
     color: #323232;
 }
 
+.background-element-two .container.small-width{
+    padding-left: 0px;
+}
+.background-element-two .text.about{
+    mix-blend-mode: difference;
+    color: white;
+}
+
+.color-switch-for-about{
+    color: white;
+}
+
+
 /* Modal Styles */
 .modal {
     display: none;
@@ -2927,6 +2940,7 @@ blockquote {
 
     .small-width .small-container {
         margin-top: 30px;
+        padding: 1rem;
     }
     .modal-content {
         background-color: #ffffffeb;
@@ -2937,5 +2951,8 @@ blockquote {
         border-radius: 2rem;
         min-width: 290px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .navbar-container{
+        padding-left: 4rem;
     }
 }
