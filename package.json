@@ -1,0 +1,23 @@
+{
+  "name": "Quantumaesthetiks",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000Q\u0000u\u0000a\u0000n\u0000t\u0000u\u0000m\u0000A\u0000e\u0000s\u0000t\u0000h\u0000e\u0000t\u0000i\u0000k\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FKynard2/QuantumAesthetiks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FKynard2/QuantumAesthetiks/issues"
+  },
+  "homepage": "https://github.com/FKynard2/QuantumAesthetiks#readme",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
