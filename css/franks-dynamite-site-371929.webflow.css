@@ -1914,6 +1914,11 @@ blockquote {
     text-align: center;
     color: red;
 }
+.modal-clock {
+    color: red;
+    width: 40%;
+    margin: auto;
+}
 
 /* Add some animation */
 .modal-content {
@@ -1930,7 +1935,6 @@ blockquote {
 #timer {
     font-size: 24px;
     font-weight: bold;
-    color: #333;
 }
 .modal-ul {
     color: #01adb5;
@@ -2004,9 +2008,25 @@ blockquote {
 .section-three-process {
     display: flex;
 }
-@media screen and (max-width: 1400px) {
-    .container {
-        padding-left: 110px;
+@media screen and (max-width: 1500px) {
+    .modal-content{
+        width: 50%;
+        margin: 5% auto;
+    }
+    .services {
+        width: 75%;
+    }
+    .first-ul-section li {
+        margin-bottom: 1.5rem;
+    }
+    .second-ul-section.ul-services {
+        margin-top: 4rem;
+    }
+    .ul-services-two li {
+        margin-bottom: 2rem;
+    }
+    .ul-services-three {
+        margin-top: 0rem;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -2023,6 +2043,10 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
+    .modal-content{
+        width: 80%;
+        margin: 15% auto;
+    }
     .services {
         width: 100%;
     }
@@ -2468,6 +2492,16 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
+    .modal-clock {
+        width: 70%;
+        text-align: center;
+    }
+    .container {
+        padding-left: 0px;
+    }
+    .second-ul-section.ul-services {
+        margin-top: 10px;
+    }
     .hero-image-two {
         display: none;
     }
@@ -2502,13 +2536,22 @@ blockquote {
     }
     .modal-content {
         background-color: #ffffffeb;
-        margin: 53% auto;
+        margin: 28% auto;
         padding: 20px;
         border: 1px solid #888;
-        width: 32%;
+        width: 95%;
         border-radius: 2rem;
         min-width: 290px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .modal-text{
+        font-size: 11px;
+    }
+    .modal-hero{
+        gap: 8px;
+    }
+    .modal-ul{
+        width: 70%;
     }
     .navbar-container {
         padding-left: 4rem;
