@@ -133,7 +133,7 @@ blockquote {
 
 .logo-text {
     font-family: "DM Sans", sans-serif;
-    color: white;
+    color: #b9b9b9;
     font-size: 20px;
     line-height: 28px;
     font-weight: 600;
@@ -1871,7 +1871,7 @@ blockquote {
 }
 .background-element-two .text.about {
     mix-blend-mode: difference;
-    color: white;
+    color: #b9b9b9;
 }
 
 .color-switch-for-about {
@@ -1965,18 +1965,32 @@ blockquote {
     top: 0;
     object-fit: cover;
     object-position: 20%;
-    filter: brightness(0.5);
+    filter: brightness(0.2);
 }
-
-.thankyou-hero {
+.thankyou-hero-wrapper {
+    position: relative;
     font-family: "DM Sans", sans-serif;
     width: 40%;
     margin: 10% auto;
     text-align: center;
-    color: white;
+    color: #b9b9b9;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 5px solid #00868e;
+    padding-inline: 2rem;
+    min-width: 20rem;
+    overflow: hidden;
+}
+.thankyou-hero {
+    position: absolute;
+    background-image: url(/images/bricks.png);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(.5);
+    padding: 2rem;
+     transform: scale(2);
 }
 
 .proces-hero {
@@ -1996,7 +2010,7 @@ blockquote {
     line-height: 70px;
 }
 .container-process-hero h3 {
-    color: white;
+    color: #b9b9b9;
 }
 .center-container p {
     color: aqua;
@@ -2605,7 +2619,7 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
-    .form{
+    .form {
         display: contents;
     }
     .text-field {
@@ -2665,7 +2679,7 @@ blockquote {
         flex-direction: column;
     }
     .section-three-process h2 {
-        color: white;
+        color: #b9b9b9;
         font-size: 14px;
     }
     .quantum-img-process {
@@ -2714,11 +2728,11 @@ blockquote {
         width: 60%;
     }
     .h2 {
-        color: white;
+        color: #b9b9b9;
     }
     .small-container .text.about,
     .h2 {
-        color: white;
+        color: #b9b9b9;
     }
 
     .small-width .small-container {
@@ -2789,10 +2803,10 @@ blockquote {
     }
     .services-container {
         width: 100%;
-        background-color: white;
+        background-color: #b9b9b9;
     }
     .mobile-only {
-        background-color: white;
+        background-color: #b9b9b9;
         display: block;
     }
     .mobile-only-text {
@@ -2817,13 +2831,13 @@ blockquote {
     }
     .first-ul-section,
     .mobile-text-color-one {
-        color: white;
+        color: #b9b9b9;
     }
     .mobile-text-color-two {
         color: #01adb5;
     }
     .bg-for-mobile {
-        background-color: white;
+        background-color: #b9b9b9;
         padding-bottom: 2rem;
     }
     .services-page-two p {
@@ -2989,7 +3003,7 @@ blockquote {
     .testimonial {
         margin-right: 0px;
         margin-left: 0px;
-        box-shadow: 0 4px 10px 0 rgba(55, 68, 111, 0.14);
+        box-shadow: 0 4px 10px 0 rgba(55, 68, 111, 0.5);
     }
 }
 
