@@ -2056,8 +2056,22 @@ blockquote {
     pointer-events: none; /* Prevents the pseudo-element from interfering with clicks */
     z-index: 1; /* Adjust the z-index as needed */
 }
+.center-container .text {
+    position: initial;
+    width: 50%;
+    text-align: center;
+}
 
 @media screen and (max-width: 1500px) {
+    .contact-container {
+        width: 90%;
+    }
+    .contact-section {
+        padding-top: 10px;
+    }
+    .contact-section .center-container {
+        margin-bottom: 0px;
+    }
     /* Start of the process page */
     .section-three-process .center-container {
         max-width: 720px;
@@ -2104,6 +2118,10 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
+    .contact-section {
+        padding-top: 60px;
+        margin: auto;
+    }
     /* Start of the process page */
     .center-container p {
         left: -30px;
@@ -2587,6 +2605,16 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
+    .text-field {
+        max-height: 40px;
+    }
+    .contact-navbar-container .w-nav-overlay [data-nav-menu-open] {
+        padding-top: 50px;
+        top: 0px;
+    }
+    .contact-section {
+        margin-top: 5rem;
+    }
     /* This is for the process page */
     .section-three-process .center-container {
         max-width: 370px;
@@ -2657,7 +2685,7 @@ blockquote {
         width: 70%;
         text-align: center;
     }
-   
+
     .second-ul-section.ul-services {
         margin-top: 10px;
     }
@@ -2679,7 +2707,7 @@ blockquote {
         align-items: center;
     }
     .primary-button.top-margin {
-        width: 50%;
+        width: 60%;
     }
     .h2 {
         color: white;
