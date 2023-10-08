@@ -2010,7 +2010,7 @@ blockquote {
 .process-bg {
     width: 100%;
     position: absolute;
-    filter: brightness(0.5);
+    filter: brightness(0.2);
 }
 .section-three-process {
     display: flex;
@@ -2100,13 +2100,15 @@ blockquote {
         margin-bottom: 0.5rem;
     }
     .container {
-        padding-left: 25px;
+        padding: 25px;
     }
 }
 
 @media screen and (max-width: 991px) {
     /* Start of the process page */
-
+    .center-container p {
+        left: -30px;
+    }
     .second-shadow-feathering::before {
         content: "";
         position: absolute;
@@ -2587,6 +2589,9 @@ blockquote {
 
 @media screen and (max-width: 479px) {
     /* This is for the process page */
+    .section-three-process .center-container {
+        max-width: 370px;
+    }
     .container-process-hero h1 {
         font-size: 28px;
         line-height: 36px;
@@ -2653,9 +2658,7 @@ blockquote {
         width: 70%;
         text-align: center;
     }
-    .container {
-        padding-left: 0px;
-    }
+   
     .second-ul-section.ul-services {
         margin-top: 10px;
     }
