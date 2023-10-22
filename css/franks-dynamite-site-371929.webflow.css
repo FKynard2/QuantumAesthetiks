@@ -2045,6 +2045,10 @@ blockquote {
     font-size: var(--xxxxs);
     line-height: 1.125rem;
 }
+.image-background{
+    width: 100%;
+    position: fixed;
+}
 .thankyou-hero-wrapper-2 > a:nth-child(5) {
     background-color: red;
     border-radius: 15px;
