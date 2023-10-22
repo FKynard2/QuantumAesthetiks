@@ -1955,7 +1955,19 @@ blockquote {
         opacity: 1;
     }
 }
-
+.thankyou-body {
+    background-color: white;
+    font-family: "Inter", sans-serif;
+}
+.thankyou-body .nav-link {
+    color: #01adb5;
+}
+.thankyou-body .nav-link:hover {
+    color: #00868e;
+}
+.thankyou-body .logo-text {
+    color: #323232;
+}
 .thankyou {
     position: absolute;
     width: 100%;
@@ -1965,32 +1977,82 @@ blockquote {
     top: 0;
     object-fit: cover;
     object-position: 20%;
-    filter: brightness(0.2);
+    opacity: 0.2;
 }
 .thankyou-hero-wrapper {
-    position: relative;
     font-family: "DM Sans", sans-serif;
-    width: 40%;
-    margin: 10% auto;
-    text-align: center;
-    color: #b9b9b9;
+    width: 55%;
+    margin: 1rem auto;
+    color: #323232;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid #00868e;
-    padding-inline: 2rem;
+
+    border-radius: 1rem;
     min-width: 20rem;
     overflow: hidden;
 }
-.thankyou-hero {
-    position: absolute;
-    background-image: url(/images/bricks.png);
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    filter: brightness(.5);
-    padding: 2rem;
-     transform: scale(2);
+.imager-wrapper {
+    width: 55%;
+    margin: auto;
+}
+.thankyou-hero-wrapper img {
+    max-width: 100%;
+    border-radius: 50%;
+
+    border: 4px solid #323232;
+}
+
+.thankyou-hero-wrapper h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: var(--medium);
+    text-align: center;
+    line-height: normal;
+}
+.thankyou-hero-wrapper h1 span {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "Inter";
+    color: red;
+}
+.thankyou-hero-wrapper > h1:nth-child(2) {
+    color: #323232;
+}
+.thankyou-hero-wrapper > h1:nth-child(3) {
+    color: #323232;
+}
+.thankyou-hero-wrapper-2 {
+    background-color: rgba(255, 255, 255, 0.733);
+    border: 2px solid red;
+    max-width: 30%;
+    padding: 1rem;
+}
+
+.thankyou-hero-wrapper-2 > h3:nth-child(2) {
+    color: #323232;
+    align-self: flex-start;
+    margin-bottom: 0px;
+}
+.thankyou-hero-wrapper-2 > p:nth-child(3) {
+    color: red;
+    align-self: flex-start;
+    padding-left: 1rem;
+}
+.thankyou-hero-wrapper-2 > ul:nth-child(4) {
+    color: #323232;
+    padding-left: 1rem;
+    font-size: var(--xxxxs);
+    line-height: 1.125rem;
+}
+.thankyou-hero-wrapper-2 > a:nth-child(5) {
+    background-color: red;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: var(--xsmall);
+    
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .proces-hero {
@@ -2438,7 +2500,7 @@ blockquote {
 
     .logo-icon {
         width: 100px;
-        margin-right: -39px;
+        margin-right: 10px;
         margin-top: 7px;
     }
 
